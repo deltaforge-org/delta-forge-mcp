@@ -1,0 +1,5 @@
+# Codex MCP server entry. Add to your Codex config (e.g. ~/.codex/config.toml).
+[mcp_servers.deltaforge]
+command = "npx"
+args = ["-y", "deltaforge-mcp"]
+env = { DELTAFORGE_CONTROL_PLANE_URL = "https://control.example.com" }
